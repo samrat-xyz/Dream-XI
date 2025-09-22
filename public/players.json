@@ -1,110 +1,110 @@
 [
   {
-    "name": "Virat Kohli",
-    "country": "India",
-    "player_image": "https://example.com/images/virat_kohli.jpg",
-    "playing_role": "Batsman",
-    "rating": 925,
-    "price": 2000000,
-    "id": "player_01"
-  },
-  {
-    "name": "Babar Azam",
-    "country": "Pakistan",
-    "player_image": "https://example.com/images/babar_azam.jpg",
-    "playing_role": "Batsman",
-    "rating": 890,
-    "price": 1850000,
-    "id": "player_02"
-  },
-  {
-    "name": "Trent Boult",
-    "country": "New Zealand",
-    "player_image": "https://example.com/images/trent_boult.jpg",
-    "playing_role": "Bowler",
-    "rating": 850,
-    "price": 1500000,
-    "id": "player_03"
-  },
-  {
-    "name": "Ben Stokes",
-    "country": "England",
-    "player_image": "https://example.com/images/ben_stokes.jpg",
-    "playing_role": "All-rounder",
-    "rating": 880,
-    "price": 1950000,
-    "id": "player_04"
-  },
-  {
-    "name": "Steve Smith",
-    "country": "Australia",
-    "player_image": "https://example.com/images/steve_smith.jpg",
-    "playing_role": "Batsman",
-    "rating": 910,
-    "price": 1750000,
-    "id": "player_05"
-  },
-  {
-    "name": "Rashid Khan",
-    "country": "Afghanistan",
-    "player_image": "https://example.com/images/rashid_khan.jpg",
-    "playing_role": "Bowler",
-    "rating": 875,
-    "price": 1600000,
-    "id": "player_06"
-  },
-  {
-    "name": "Quinton de Kock",
-    "country": "South Africa",
-    "player_image": "https://example.com/images/quinton_de_kock.jpg",
-    "playing_role": "Wicketkeeper-Batsman",
-    "rating": 860,
-    "price": 1400000,
-    "id": "player_07"
-  },
-  {
-    "name": "Jasprit Bumrah",
-    "country": "India",
-    "player_image": "https://example.com/images/jasprit_bumrah.jpg",
-    "playing_role": "Bowler",
-    "rating": 905,
-    "price": 1800000,
-    "id": "player_08"
-  },
-  {
-    "name": "Kane Williamson",
-    "country": "New Zealand",
-    "player_image": "https://example.com/images/kane_williamson.jpg",
-    "playing_role": "Batsman",
-    "rating": 900,
-    "price": 1700000,
-    "id": "player_09"
-  },
-  {
+    "id": "player_01",
     "name": "Shakib Al Hasan",
     "country": "Bangladesh",
-    "player_image": "https://example.com/images/shakib_al_hasan.jpg",
+    "player_image": "https://media.crictracker.com/media/attachments/1751804119826_Shakib-Al-Hasan.jpeg",
     "playing_role": "All-rounder",
-    "rating": 870,
-    "price": 1650000,
-    "id": "player_10"
+    "rating": 915,
+    "price": 1900000
   },
   {
-    "name": "Joe Root",
-    "country": "England",
-    "player_image": "https://example.com/images/joe_root.jpg",
+    "id": "player_02",
+    "name": "Rashid Khan",
+    "country": "Afghanistan",
+    "player_image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS92PalOVbWu5aYe-TzsA8gYjE1rzQg1oyrpA&s",
+    "playing_role": "Bowler",
+    "rating": 900,
+    "price": 1850000
+  },
+  {
+    "id": "player_03",
+    "name": "Babar Azam",
+    "country": "Pakistan",
+    "player_image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS34qgT1gOgEIW_QrK-EoGbNDzx92PRgCkmNA&s",
     "playing_role": "Batsman",
-    "rating": 895,
-    "price": 1550000,
-    "id": "player_11"
+    "rating": 930,
+    "price": 2100000
   },
   {
+    "id": "player_04",
+    "name": "Virat Kohli",
+    "country": "India",
+    "player_image": "https://documents.iplt20.com/ipl/IPLHeadshot2025/2.png",
+    "playing_role": "Batsman",
+    "rating": 925,
+    "price": 2000000
+  },
+  {
+    "id": "player_05",
+    "name": "Ben Stokes",
+    "country": "England",
+    "player_image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRvxh9eQs6lzyNSr9FDlzGiZx6P9sUt127-Tw&s",
+    "playing_role": "All-rounder",
+    "rating": 880,
+    "price": 1950000
+  },
+  {
+    "id": "player_06",
     "name": "Pat Cummins",
     "country": "Australia",
-    "player_image": "https://example.com/images/pat_cummins.jpg",
+    "player_image": "https://www.wisden.com/static-assets/images/players/56964.png?v=23.77",
     "playing_role": "Bowler",
     "rating": 885,
-    "price": 1780000,
-    "id": "player_12"
+    "price": 1780000
+  },
+  {
+    "id": "player_07",
+    "name": "Kane Williamson",
+    "country": "New Zealand",
+    "player_image": "https://ipltable.in/wp-content/uploads/2024/02/image-44-700x700.jpeg",
+    "playing_role": "Batsman",
+    "rating": 900,
+    "price": 1700000
+  },
+  {
+    "id": "player_08",
+    "name": "Quinton de Kock",
+    "country": "South Africa",
+    "player_image": "https://www.kkr.in/static-assets/images/players/28035.png?v=111.76",
+    "playing_role": "Wicketkeeper-Batsman",
+    "rating": 860,
+    "price": 1400000
+  },
+  {
+    "id": "player_09",
+    "name": "Jasprit Bumrah",
+    "country": "India",
+    "player_image": "https://documents.iplt20.com/ipl/IPLHeadshot2025/9.png",
+    "playing_role": "Bowler",
+    "rating": 905,
+    "price": 1800000
+  },
+  {
+    "id": "player_10",
+    "name": "Joe Root",
+    "country": "England",
+    "player_image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmwrm_vkSyqbV5J3jJfdtF7L5hyvD0pYpQQw&s",
+    "playing_role": "Batsman",
+    "rating": 895,
+    "price": 1550000
+  },
+  {
+    "id": "player_11",
+    "name": "David Warner",
+    "country": "Australia",
+    "player_image": "https://c.ndtvimg.com/2023-05/ptrff65g_david-warner-bcci_625x300_08_May_23.jpg?im=FeatureCrop,algorithm=dnn,width=806,height=605",
+    "playing_role": "Batsman",
+    "rating": 850,
+    "price": 1600000
+  },
+  {
+    "id": "player_12",
+    "name": "Kagiso Rabada",
+    "country": "South Africa",
+    "player_image": "https://www.hindustantimes.com/static-content/1y/cricket-logos/players/kagiso-rabada.png",
+    "playing_role": "Bowler",
+    "rating": 870,
+    "price": 1450000
   }
 ]
