@@ -1,9 +1,22 @@
-import React from "react";
+import React, { useState } from "react";
 import  playerAvaterImg from '../assets/Group.png'
 import flagImg from '../assets/flag.png'
-function PlayerCards({ player }) {
-    const {name,country,player_image,playing_role,player_rating,price,batting_role,bowling_role} = player
-  console.log(player);
+function PlayerCards({ player,avaiableBalance,setAvailableBalance,purchesedPlayer,setPurchesedPlayer }) {
+    const {name,country,player_image,playing_role,player_rating,price,batting_role,bowling_role} = player;
+    const [isSelected,setIsSelected] = useState(false);
+
+    const handlePlayers = (newPlayers) =>{
+      if(avaiableBalance > price){
+        setAvailableBalance(avaiableBalance - price);
+        setIsSelected(true);
+        setPurchesedPlayer([...purchesedPlayer,newPlayers])
+        
+      }else{
+        alert("You Don't Have enugh money");
+        
+      }
+    }
+    
   return (
     <div className="max-w-7xl mx-auto ">
       <div className="card bg-base-100 w-96 shadow-sm">
@@ -33,7 +46,14 @@ function PlayerCards({ player }) {
           </div>
           <div className="flex items-center justify-between">
             <p>Price: {price}</p>
-            <button className="btn">Choose Player</button>
+            <button
+            disabled={isSelected}
+            onClick={()=>handlePlayers(player)}
+             className="btn">
+              {
+                isSelected ? "Selected" : "Choose Player"
+              }
+             </button>
           </div>
           
         </div>

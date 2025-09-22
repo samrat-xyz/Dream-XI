@@ -1,9 +1,18 @@
 import React from 'react'
+import SelectedPlayerCards from './SelectedPlayerCards'
 
-function SelectedPlayers() {
+
+function SelectedPlayers({purchesedPlayer}) {
+  const selectedPlayersData = purchesedPlayer;
   return (
     <div>
-      <h1>Select Page</h1>
+      {
+        selectedPlayersData.map(selectedPlayer =><SelectedPlayerCards selectedPlayer={selectedPlayer}
+        key={selectedPlayer.id}
+        />
+          
+        )
+      }
     </div>
   )
 }
