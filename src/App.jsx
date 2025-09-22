@@ -3,6 +3,7 @@ import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import AvaiablePlayers from "./components/AvaiablePlayers";
 import SelectedPlayers from "./components/SelectedPlayers";
+import Loading from "./components/Loading";
 
 const fetchingData = async () => {
   const res = await fetch("./players.json");
@@ -19,7 +20,7 @@ function App() {
   const handleSelected = () => {
     setToggle(false);
   };
-  const [avaiableBalance,setAvailableBalance] = useState(10000000)
+  const [avaiableBalance,setAvailableBalance] = useState(10000000);
   return (
     <div>
       <Navbar avaiableBalance={avaiableBalance}/>
@@ -50,7 +51,7 @@ function App() {
       </section>
 
       {toggle ? (
-        <Suspense fallback={<h1>Loading.....</h1>}>
+        <Suspense fallback={<Loading/>}>
           <AvaiablePlayers promiseData={promiseData} avaiableBalance={avaiableBalance}
           setAvailableBalance={setAvailableBalance}
           purchesedPlayer={purchesedPlayer}
