@@ -1,16 +1,30 @@
 import React, { useState } from "react";
-import playerAvaterImg from '../assets/Group.png'
-import flagImg from '../assets/flag.png'
+import playerAvaterImg from "../assets/Group.png";
+import flagImg from "../assets/flag.png";
 import { toast } from "react-toastify";
 
-function PlayerCards({ player, availableBalance, setAvailableBalance, purchesedPlayer, setPurchesedPlayer }) {
-  const { name, country, player_image, playing_role, player_rating, price, batting_role, bowling_role } = player;
+function PlayerCards({
+  player,
+  availableBalance,
+  setAvailableBalance,
+  purchesedPlayer,
+  setPurchesedPlayer,
+}) {
+  const {
+    name,
+    country,
+    player_image,
+    playing_role,
+    player_rating,
+    price,
+    batting_role,
+    bowling_role,
+  } = player;
   const [isSelected, setIsSelected] = useState(false);
 
   const handlePlayers = (newPlayer) => {
-   
     if (purchesedPlayer.length >= 11) {
-      toast('Already 11 players added');
+      toast("Already 11 players added");
       return;
     }
 
@@ -19,22 +33,17 @@ function PlayerCards({ player, availableBalance, setAvailableBalance, purchesedP
       return;
     }
 
-    
     setAvailableBalance(availableBalance - price);
     setPurchesedPlayer([...purchesedPlayer, newPlayer]);
     setIsSelected(true);
     toast(`${name} added successfully`);
-  }
+  };
 
   return (
-    <div className="max-w-7xl mx-auto ">
-      <div className="card bg-base-100 w-96 shadow-sm">
+    <div className="max-w-7xl mx-auto">
+      <div className="card bg-base-100 shadow-sm">
         <figure>
-          <img
-            src={player_image}
-            alt={name}
-            className="w-full object-cover"
-          />
+          <img src={player_image} alt={name} className="w-full object-cover" />
         </figure>
         <div className="card-body">
           <h2 className="card-title">
