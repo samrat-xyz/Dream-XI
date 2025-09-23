@@ -2,9 +2,10 @@ import React, { useState } from "react";
 import logoImg from "../assets/logo.png";
 import { Menu, X } from "lucide-react"; 
 
-function Navbar({avaiableBalance}) {
+function Navbar({availableBalance}) {
   const [isOpen, setIsOpen] = useState(false);
-
+  
+  
   return (
     <div className="max-w-7xl mx-auto px-6 py-2">
       <nav className="flex items-center justify-between">
@@ -22,7 +23,7 @@ function Navbar({avaiableBalance}) {
             <li className="hover:text-gray-900 cursor-pointer">Schedules</li>
           </ul>
           <button className="border px-8 py-2 rounded-lg border-gray-200">
-            {avaiableBalance}$
+            {availableBalance}$
           </button>
         </div>
 
@@ -44,7 +45,7 @@ function Navbar({avaiableBalance}) {
             <li className="hover:text-blue-500 cursor-pointer">Schedules</li>
           </ul>
           <button className="border px-8 py-2 rounded-lg border-gray-200 w-full">
-            {avaiableBalance}$
+            {availableBalance}$
           </button>
         </div>
       )}

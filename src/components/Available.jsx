@@ -1,7 +1,7 @@
 import React, { use } from 'react'
 import PlayerCards from './PlayerCards';
 
-function AvaiablePlayers({promiseData,avaiableBalance,setAvailableBalance,setPurchesedPlayer,purchesedPlayer}) {
+function AvailablePlayers({promiseData,availableBalance,setAvailableBalance,setPurchesedPlayer,purchesedPlayer}) {
     const players = use(promiseData);
     
   return (
@@ -11,7 +11,7 @@ function AvaiablePlayers({promiseData,avaiableBalance,setAvailableBalance,setPur
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 my-5">
         {
           players.map(player =><PlayerCards player={player} key={player.id} 
-          avaiableBalance={avaiableBalance}
+          availableBalance={availableBalance}
           setAvailableBalance={setAvailableBalance}
           purchesedPlayer={purchesedPlayer}
           setPurchesedPlayer={setPurchesedPlayer}
@@ -22,4 +22,4 @@ function AvaiablePlayers({promiseData,avaiableBalance,setAvailableBalance,setPur
   )
 }
 
-export default AvaiablePlayers
+export default AvailablePlayers

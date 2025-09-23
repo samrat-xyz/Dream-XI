@@ -130,5 +130,203 @@
     "bowling_role": "Right-arm fast",
     "player_rating": 9.0,
     "price": 1450000
+  },
+  {
+    "id": "player_13",
+    "name": "Steve Smith",
+    "country": "Australia",
+    "player_image": "https://images.news18.com/ibnlive/uploads/2025/02/GjLZdpwagAApSmq-fotor-20250207172840-2025-02-e32a0a349236f3bcf7b8028571fcd354-3x2.jpg",
+    "playing_role": "Batsman",
+    "batting_role": "Right-handed batsman",
+    "bowling_role": "Right-arm leg-break",
+    "player_rating": 8.8,
+    "price": 1750000
+  },
+  {
+    "id": "player_14",
+    "name": "Mohammad Rizwan",
+    "country": "Pakistan",
+    "player_image": "https://p.imgci.com/db/PICTURES/CMS/333700/333701.jpg",
+    "playing_role": "Wicketkeeper-Batsman",
+    "batting_role": "Right-handed batsman",
+    "bowling_role": "None",
+    "player_rating": 8.7,
+    "price": 1350000
+  },
+  {
+    "id": "player_15",
+    "name": "Andre Russell",
+    "country": "West Indies",
+    "player_image": "https://udaipurtimes.com/static/c1e/client/74416/uploaded_original/41142365fe363d1e07952cf19c9e2c3d.jpg",
+    "playing_role": "All-rounder",
+    "batting_role": "Right-handed batsman",
+    "bowling_role": "Right-arm fast-medium",
+    "player_rating": 8.9,
+    "price": 1650000
+  },
+  {
+    "id": "player_16",
+    "name": "Trent Boult",
+    "country": "New Zealand",
+    "player_image": "https://i.cdn.newsbytesapp.com/images/l77420231014004651.jpeg",
+    "playing_role": "Bowler",
+    "batting_role": "Right-handed batsman",
+    "bowling_role": "Left-arm fast-medium",
+    "player_rating": 8.85,
+    "price": 1500000
+  },
+  {
+    "id": "player_17",
+    "name": "KL Rahul",
+    "country": "India",
+    "player_image": "https://wallpapers.com/images/hd/kl-rahul-favorite-player-k9smk4af8vq08qlz.jpg",
+    "playing_role": "Wicketkeeper-Batsman",
+    "batting_role": "Right-handed batsman",
+    "bowling_role": "None",
+    "player_rating": 8.8,
+    "price": 1500000
+  },
+  {
+    "id": "player_18",
+    "name": "Faf du Plessis",
+    "country": "South Africa",
+    "player_image": "https://cdn.wallpapersafari.com/46/54/DaswJG.jpg",
+    "playing_role": "Batsman",
+    "batting_role": "Right-handed batsman",
+    "bowling_role": "Leg-break",
+    "player_rating": 8.75,
+    "price": 1400000
+  },
+  {
+    "id": "player_19",
+    "name": "Shaheen Afridi",
+    "country": "Pakistan",
+    "player_image": "https://e0.365dm.com/21/10/768x432/skysports-shaheen-shah-afridi_5537334.jpg?20211006154134",
+    "playing_role": "Bowler",
+    "batting_role": "Left-handed batsman",
+    "bowling_role": "Left-arm fast",
+    "player_rating": 9.1,
+    "price": 1800000
+  },
+  {
+    "id": "player_20",
+    "name": "Rohit Sharma",
+    "country": "India",
+    "player_image": "http://pimwp.s3-accelerate.amazonaws.com/2023/04/nWA9qdC9pF.jpg.webp",
+    "playing_role": "Batsman",
+    "batting_role": "Right-handed batsman",
+    "bowling_role": "Right-arm off-break",
+    "player_rating": 9.0,
+    "price": 1900000
+  },
+  {
+    "id": "player_21",
+    "name": "Hardik Pandya",
+    "country": "India",
+    "player_image": "https://images.indianexpress.com/2025/03/HARDIK-10.jpg",
+    "playing_role": "All-rounder",
+    "batting_role": "Right-handed batsman",
+    "bowling_role": "Right-arm fast-medium",
+    "player_rating": 8.6,
+    "price": 1550000
+  },
+  {
+    "id": "player_22",
+    "name": "Shubman Gill",
+    "country": "India",
+    "player_image": "https://static.toiimg.com/thumb/msid-120648132,width-400,resizemode-4/Shubman-Gill.jpg",
+    "playing_role": "Batsman",
+    "batting_role": "Right-handed batsman",
+    "bowling_role": "None",
+    "player_rating": 8.5,
+    "price": 1450000
+  },
+  {
+    "id": "player_23",
+    "name": "Mitchell Starc",
+    "country": "Australia",
+    "player_image": "https://static.toiimg.com/thumb/msid-118589765,width-1070,height-580,imgsize-36420,resizemode-75,overlay-toi_sw,pt-32,y_pad-40/photo.jpg",
+    "playing_role": "Bowler",
+    "batting_role": "Left-handed batsman",
+    "bowling_role": "Left-arm fast",
+    "player_rating": 9.2,
+    "price": 1800000
+  },
+  {
+    "id": "player_24",
+    "name": "Glenn Maxwell",
+    "country": "Australia",
+    "player_image": "https://e0.365dm.com/23/11/1600x900/skysports-glenn-maxwell-australia_6352082.jpg?20250602082518",
+    "playing_role": "All-rounder",
+    "batting_role": "Right-handed batsman",
+    "bowling_role": "Off-spin",
+    "player_rating": 8.4,
+    "price": 1500000
+  },
+  {
+    "id": "player_25",
+    "name": "Suryakumar Yadav",
+    "country": "India",
+    "player_image": "https://www.mumbaiindians.com/static-assets/waf-images/e1/dc/8e/16-9/1920-1080/zmDuYRMjOn.jpg",
+    "playing_role": "Batsman",
+    "batting_role": "Right-handed batsman",
+    "bowling_role": "None",
+    "player_rating": 8.7,
+    "price": 1500000
+  },
+  {
+    "id": "player_26",
+    "name": "Dinesh Karthik",
+    "country": "India",
+    "player_image": "https://img1.hscicdn.com/image/upload/f_auto/lsci/db/PICTURES/CMS/379300/379306.6.jpg",
+    "playing_role": "Wicketkeeper-Batsman",
+    "batting_role": "Right-handed batsman",
+    "bowling_role": "None",
+    "player_rating": 8.0,
+    "price": 1250000
+  },
+  {
+    "id": "player_27",
+    "name": "Eoin Morgan",
+    "country": "England",
+    "player_image": "https://images.firstpost.com/wp-content/uploads/2021/03/Eoin-Morgan-1st-ODI-India-Sportzpics-640.jpg?im=FitAndFill=(596,336)",
+    "playing_role": "Batsman",
+    "batting_role": "Left-handed batsman",
+    "bowling_role": "None",
+    "player_rating": 8.3,
+    "price": 1300000
+  },
+  {
+    "id": "player_28",
+    "name": "Jason Holder",
+    "country": "West Indies",
+    "player_image": "https://images.hindustantimes.com/img/2022/01/31/1600x900/cricket-WIS-ENG-4TH-T20I-18_1643635832339_1643635853548.jpg",
+    "playing_role": "All-rounder",
+    "batting_role": "Right-handed batsman",
+    "bowling_role": "Right-arm medium-fast",
+    "player_rating": 8.5,
+    "price": 1400000
+  },
+  {
+    "id": "player_29",
+    "name": "Litton Das",
+    "country": "Bangladesh",
+    "player_image": "https://akm-img-a-in.tosshub.com/indiatoday/images/story/201809/Liton_Das.jpeg?size=1200:675",
+    "playing_role": "Wicketkeeper-Batsman",
+    "batting_role": "Right-handed batsman",
+    "bowling_role": "None",
+    "player_rating": 8.2,
+    "price": 1200000
+  },
+  {
+    "id": "player_30",
+    "name": "Tamim Iqbal",
+    "country": "Bangladesh",
+    "player_image": "https://media.crictracker.com/media/featureimage/2017/06/Tamim-Iqbal.jpg",
+    "playing_role": "Batsman",
+    "batting_role": "Left-handed batsman",
+    "bowling_role": "None",
+    "player_rating": 8.4,
+    "price": 1300000
   }
 ]
